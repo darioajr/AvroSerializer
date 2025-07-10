@@ -7,8 +7,8 @@ import json
 
 @library
 class AvroSerializer:
-    def __init__(self):
-        self.schema = None
+    def __init__(self, schema=None):
+        self.schema = schema
 
     @keyword("Load Avro Schema From File")
     def load_avro_schema_from_file(self, schema_path):
