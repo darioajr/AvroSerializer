@@ -1,7 +1,7 @@
 import pytest
 import json
 import avro.schema
-from robot_avro_serializer.avroserializer import AvroSerializer
+from robotavroserializer.avroserializer import AvroSerializer
 
 @pytest.fixture
 def sample_schema(tmp_path):
