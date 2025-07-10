@@ -1,4 +1,4 @@
-# robot_avro_serializer/AvroSerializer.py
+# robot_avro_serializer/avroserializer.py
 from robot.api.deco import keyword, library
 import avro.schema
 import avro.io
