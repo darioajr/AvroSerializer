@@ -1,5 +1,5 @@
 import pytest
-from robot_avro_serializer.AvroSerializer import AvroSerializer
+from robot_avro_serializer import AvroSerializer
 
 @pytest.fixture
 def sample_schema(tmp_path):

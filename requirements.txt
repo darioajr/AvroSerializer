@@ -1,3 +1,2 @@
 robotframework
 avro-python3
-pytest
